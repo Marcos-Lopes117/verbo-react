@@ -1,0 +1,67 @@
+/* src/components/Header.css */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+.header-left .logo {
+    height: 50px;
+}
+
+.header-right {
+    position: relative;
+}
+
+.title-header {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+
+}
+
+.dropdown-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.dropdown-btn:hover {
+    text-decoration: underline;
+}
+
+.dropdown-menu {
+    position: absolute;
+    right: 0;
+    background-color: black;
+    list-style: none;
+    margin: 0;
+    padding: 5px 0;
+    border: 1px solid #333;
+    min-width: 150px;
+}
+
+.dropdown-menu li {
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+    background-color: #222;
+}
+
+@media screen and (max-width: 450px) {
+    .title-header {
+        display: none;
+    }
+}

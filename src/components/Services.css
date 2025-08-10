@@ -1,0 +1,56 @@
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px auto;
+    width: 90%;
+    max-width: 900px;
+    }
+    
+    .service-card {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    flex: 1 1 350px; /* Ensures responsiveness /
+    display: flex;
+    flex-direction: column; / Stack image above text /
+    align-items: center; / Center content horizontally */
+    }
+    
+    .service-image {
+    width: 100%; /* Make the image take the full width of the card /
+    height: auto;
+    border-radius: 8px 8px 0 0; / Round the top corners of the image /
+    margin-bottom: 10px; / Add some space between the image and text /
+    object-fit: cover; / Ensure the image covers the area without distortion /
+    max-height: 200px; / Set a maximum height for the image */
+    }
+    
+    .card-day {
+    color: yellow;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 10px; /* Add some space above the day */
+    margin-bottom: 0;
+    }
+    
+    .card-title {
+    font-size: 1.5em;
+    margin: 10px 0;
+    }
+    
+    .card-time {
+    font-style: italic;
+    font-size: 1.2em;
+    color: #ccc;
+    margin-bottom: 10px;
+    }
+    
+    .card-description {
+    font-size: 1em;
+    line-height: 1.5;
+    }

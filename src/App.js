@@ -2,14 +2,16 @@
 import React from "react";
 import Header from "./components/Header";
 import TopBanner from "./components/TopBanner";
-import Body from "./components/Body"; // Importe o novo componente Body
+import Body from "./components/Body"; 
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div>
       <Header />
       <TopBanner />
-      <Body /> {/* Use o componente Body aqui */}
+      <Body /> 
+      <Footer />
     </div>
   );
 }

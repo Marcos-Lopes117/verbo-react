@@ -2,17 +2,13 @@
 .top-banner {
    
     padding-top: 70px; /* altura do Header */
-    left: 0;
-    right: 0;
     background-color: black;
-    z-index: 950; /* abaixo do Header, mas acima do conteúdo */
-    
+    z-index: 950; /* abaixo do Header, mas acima do conteúdo */    
   }
   
   .banner-img {
-    background-color: rgb(77, 76, 76);
     width: 100%;
+    background-color: rgb(0, 0, 0);
     height: 30vw;
-    display: block;
   }
   

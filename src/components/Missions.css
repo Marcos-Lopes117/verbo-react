@@ -2,21 +2,22 @@
     background-color: black;
     color: white;
     padding: 30px;
-    border-radius: 10px;
-    max-width: 800px;
-    width: 90%;
+
+    /* max-width: 800px;*/    
+    
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     text-align: center;
-    margin: 40px auto; /* Centraliza o card e adiciona espaço */
+    /* margin: 40px auto; /* Centraliza o card e adiciona espaço */
     }
     
     .missions-image {
     width: 100%;
     height: auto;
-    border-radius: 8px 8px 0 0; /* Arredonda apenas os cantos superiores */
+    border-radius: 8px; /* Arredonda apenas os cantos superiores */
     margin-bottom: 20px;
     object-fit: cover;
-    max-height: 250px; /* Defina uma altura máxima para a imagem */
+    max-width: 600px;
+    max-height: 600px; /* Defina uma altura máxima para a imagem */
     }
     
     .missions-title {

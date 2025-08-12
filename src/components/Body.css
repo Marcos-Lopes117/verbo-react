@@ -1,40 +1,55 @@
 /* src/components/Body.css */
 .body-content {
-    /* Ajuste a margem superior para ser apenas a altura do Header */
-    background-color: rgb(37, 37, 37);
-    margin-top: 0px; 
-    padding: 20px;
-    position: relative;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    
-  }
+  /* Ajuste a margem superior para ser apenas a altura do Header */
+  background-color: rgb(37, 37, 37);
   
-  /* Estilo para o card */
-  .guest-card {
-    background-color: black;
-    color: white; 
-    padding: 20px;
-    border-radius: 20px;
-    max-width: 800px;
-    width: 90%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-    text-align: center;
-  }
+  margin-top: 0px;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+/* Estilo para o card */
+.guest-card {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  /* max-width: 800px; */
   
-  /* Estilo para o título do card */
-  .card-title {
-    color: yellow;
-    font-size: 2em;
-    font-weight: bold;
-    margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+/* Estilo para o título do card */
+.card-title {
+  color: yellow;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Estilo para o texto do card */
+.card-text {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+
+
+.title-header2 {
+  display: none;
+}
+
+
+@media screen and (max-width: 450px) {
+  .title-header2{
+    object-fit: cover; 
+    padding-bottom: 20px;
+    display: block;
   }
-  
-  /* Estilo para o texto do card */
-  .card-text {
-    font-size: 1.1em;
-    line-height: 1.6;
-    margin-bottom: 15px;
-  }
+}

@@ -3,11 +3,16 @@ import './Body.css';
 import ImageCarousel from './ImageCarousel';
 import Services from './Services';
 import Missions from './Missions';
+import logo from "../assets/name.png";
+
 
 function Body() {
   return (
     <div className="body-content">
-      {/* Aqui é onde a margem superior é aplicada */}
+    
+      <div class='title-header2'>
+      <img src={logo} alt="Logo da Igreja" style={{ height: "30px", width: "100%"}} />
+      </div>
       <div className="guest-card">
         <h2 className="card-title">Você é Nosso Convidado Especial!</h2>
         <p className="card-text">

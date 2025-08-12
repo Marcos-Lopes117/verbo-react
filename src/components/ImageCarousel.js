@@ -14,7 +14,7 @@ const ImageCarousel = () => {
     { src: imagem1, caption: 'Líder do ministério pastoral - Thiago Pires - Guia espiritual, cuida e supervisiona nossa igreja. ' },
     { src: imagem2, caption: 'Teen Impacto - Missão de formar uma geração firmada na Palavra!' },
     { src: imagem3, caption: 'Louvor e Adoração - Conduzir a igreja a expressar, de forma coletiva e intensa, amor, gratidão e reverência a Deus por meio da música.' },
-    { src: imagem4, caption: 'Departamento infantil - As crianças também estão sendo edificadas, aprendendo princípios da fé e vivendo momentos preciosos na presença do Senhor.' },
+    { src: imagem4, caption: 'Departamento infantil - As crianças também estão sendo edificadas e aprendendo princípios da fé.' },
     { src: imagem5, caption: 'Nossa família de fé está de braços abertos para te receber. Você é importante para Deus e para nós.' },
     { src: imagem6, caption: 'Ação social - Servindo com amor, cuidando de vidas, transformando histórias.' },
   ];

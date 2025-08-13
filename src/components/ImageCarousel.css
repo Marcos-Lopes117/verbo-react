@@ -3,7 +3,7 @@
     position: relative;
     width: 90%;
     max-width: 840px; /* Alinha com a largura do seu card */
-    margin: 40px auto;
+    
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
@@ -22,8 +22,8 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(255, 238, 6, 0.788);
-    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.534);
+    color: rgb(255, 255, 255);
     padding: 15px 0 15px 0;
     text-align: center;
     
@@ -38,8 +38,8 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: yellow;
-    color: rgb(0, 0, 0);
+    background-color: rgb(3, 3, 3);
+    color: rgb(255, 251, 0);
     border: none;
     padding: 10px 15px;
     cursor: pointer;
@@ -49,7 +49,7 @@
   }
   
   .carousel-button:hover {
-    background-color: rgba(240, 204, 4, 0.616);
+    background-color: rgba(0, 0, 0, 0.507);
   }
   
   .carousel-button.prev {

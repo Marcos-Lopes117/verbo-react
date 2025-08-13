@@ -11,11 +11,11 @@ const ImageCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const images = [
-    { src: imagem1, caption: 'Líder do ministério pastoral - Thiago Pires - Guia espiritual, cuida e supervisiona nossa igreja. ' },
-    { src: imagem2, caption: 'Teen Impacto - Missão de formar uma geração firmada na Palavra!' },
-    { src: imagem3, caption: 'Louvor e Adoração - Conduzir a igreja a expressar, de forma coletiva e intensa, amor, gratidão e reverência a Deus por meio da música.' },
-    { src: imagem4, caption: 'Departamento infantil - As crianças também estão sendo edificadas e aprendendo princípios da fé.' },
-    { src: imagem5, caption: 'Nossa família de fé está de braços abertos para te receber. Você é importante para Deus e para nós.' },
+    { src: imagem1, caption: 'Nosso ministério pastoral cuida e guia vidas em Cristo.' },
+    { src: imagem2, caption: 'Despertando jovens para um propósito em Deus.' },
+    { src: imagem3, caption: 'Louvor e Adoração: exaltando a Deus com todo o coração.' },
+    { src: imagem4, caption: 'Departamento Infantil: semeando a fé nos corações das crianças.' },
+    { src: imagem5, caption: 'Seja bem-vindo! Aqui você é amado e fazemos juntos a caminhada com Cristo.' },
     { src: imagem6, caption: 'Ação social - Servindo com amor, cuidando de vidas, transformando histórias.' },
   ];
 

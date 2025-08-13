@@ -46,6 +46,12 @@
   display: none;
 }
 
+.title-header2 h2{
+color:white;
+text-align: center;
+font-family:system-ui;
+}
+
 
 @media screen and (max-width: 450px) {
   .title-header2{

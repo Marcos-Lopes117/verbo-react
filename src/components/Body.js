@@ -13,8 +13,9 @@ function Body() {
     
       <div class='title-header2'>
       <img src={logo} alt="Logo da Igreja" style={{ height: "30px", width: "100%"}} />
+      <h2>SEPETIBA</h2>
       </div>
-
+      
       <ImageCarousel />
       <Services />
 

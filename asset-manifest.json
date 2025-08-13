@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/verbo-react/static/css/main.ee65b421.css",
-    "main.js": "/verbo-react/static/js/main.7e848712.js",
+    "main.css": "/verbo-react/static/css/main.ec4e404c.css",
+    "main.js": "/verbo-react/static/js/main.7350f966.js",
     "static/js/453.5bff4ed8.chunk.js": "/verbo-react/static/js/453.5bff4ed8.chunk.js",
-    "static/media/backtop.png": "/verbo-react/static/media/backtop.4a73582ce6d994194f61.png",
+    "static/media/backtop.png": "/verbo-react/static/media/backtop.7784d3d3988da83a9032.png",
+    "static/media/car04.jpeg": "/verbo-react/static/media/car04.e5a7e3b02b8dffb29fa0.jpeg",
     "static/media/missoes.jpg": "/verbo-react/static/media/missoes.47d8c2f38bf6ac199e0d.jpg",
+    "static/media/car06.jpeg": "/verbo-react/static/media/car06.0f7c89f1f067699ef846.jpeg",
     "static/media/car02.jpg": "/verbo-react/static/media/car02.37f778c68348dd968d0a.jpg",
-    "static/media/car06.jpeg": "/verbo-react/static/media/car06.66ce4dd3d15c61db43df.jpeg",
-    "static/media/car04.jpeg": "/verbo-react/static/media/car04.d22bde0312b0729a5c90.jpeg",
+    "static/media/CultoDeDomingo.jpg": "/verbo-react/static/media/CultoDeDomingo.94d82e671e0dfba68183.jpg",
+    "static/media/CultoDeQuinta.jpg": "/verbo-react/static/media/CultoDeQuinta.23977aa2e2d557a77fba.jpg",
     "static/media/car03.jpeg": "/verbo-react/static/media/car03.f64503355fb91cb47426.jpeg",
     "static/media/car05.jpeg": "/verbo-react/static/media/car05.a5d87c3f334ff7f46eb1.jpeg",
-    "static/media/CultoDeDomingo.jpg": "/verbo-react/static/media/CultoDeDomingo.8a22b7dbda4e6e70ebc5.jpg",
     "static/media/logo.png": "/verbo-react/static/media/logo.514c7744f578fdca2c3c.png",
     "static/media/car01.jpeg": "/verbo-react/static/media/car01.4eb770952f741c61a64e.jpeg",
-    "static/media/CultoDeQuinta.jpg": "/verbo-react/static/media/CultoDeQuinta.1b9a125a7223dd516679.jpg",
+    "static/media/name.png": "/verbo-react/static/media/name.6a579ec237c799d077f8.png",
     "index.html": "/verbo-react/index.html",
-    "main.ee65b421.css.map": "/verbo-react/static/css/main.ee65b421.css.map",
-    "main.7e848712.js.map": "/verbo-react/static/js/main.7e848712.js.map",
+    "main.ec4e404c.css.map": "/verbo-react/static/css/main.ec4e404c.css.map",
+    "main.7350f966.js.map": "/verbo-react/static/js/main.7350f966.js.map",
     "453.5bff4ed8.chunk.js.map": "/verbo-react/static/js/453.5bff4ed8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee65b421.css",
-    "static/js/main.7e848712.js"
+    "static/css/main.ec4e404c.css",
+    "static/js/main.7350f966.js"
   ]
 }

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/verbo-react/static/css/main.92d4d4b1.css",
-    "main.js": "/verbo-react/static/js/main.57d9b967.js",
+    "main.css": "/verbo-react/static/css/main.a92463ae.css",
+    "main.js": "/verbo-react/static/js/main.83a812cb.js",
     "static/js/453.5bff4ed8.chunk.js": "/verbo-react/static/js/453.5bff4ed8.chunk.js",
     "static/media/rocha.jpg": "/verbo-react/static/media/rocha.23d01cfdf5621b8bc291.jpg",
     "static/media/backtop.png": "/verbo-react/static/media/backtop.7784d3d3988da83a9032.png",
@@ -17,12 +17,12 @@
     "static/media/car01.jpeg": "/verbo-react/static/media/car01.4eb770952f741c61a64e.jpeg",
     "static/media/name.png": "/verbo-react/static/media/name.6a579ec237c799d077f8.png",
     "index.html": "/verbo-react/index.html",
-    "main.92d4d4b1.css.map": "/verbo-react/static/css/main.92d4d4b1.css.map",
-    "main.57d9b967.js.map": "/verbo-react/static/js/main.57d9b967.js.map",
+    "main.a92463ae.css.map": "/verbo-react/static/css/main.a92463ae.css.map",
+    "main.83a812cb.js.map": "/verbo-react/static/js/main.83a812cb.js.map",
     "453.5bff4ed8.chunk.js.map": "/verbo-react/static/js/453.5bff4ed8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.92d4d4b1.css",
-    "static/js/main.57d9b967.js"
+    "static/css/main.a92463ae.css",
+    "static/js/main.83a812cb.js"
   ]
 }

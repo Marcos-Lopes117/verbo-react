@@ -1,5 +1,6 @@
 // src/components/Header.js
 import React, { useState } from "react";
+import { Link } from "react-router-dom"; // Importe o Link
 import "./Header.css";
 import logo from "../assets/logo.png";
 
@@ -15,16 +16,22 @@ function Header() {
       <div className="header-left">
         <img src={logo} alt="Logo da Igreja" className="logo" />
       </div>
-        <h2 class='title-header'>VERBO SEPETIBA</h2>
+      <h2 className='title-header'>VERBO SEPETIBA</h2>
       <div className="header-right">
         <button className="dropdown-btn" onClick={toggleDropdown}>
           Menu ▾
         </button>
         {open && (
           <ul className="dropdown-menu">
-            <li>Início</li>
-            <li>Sobre Nós</li>
-            <li>Programação</li>
+            <li>
+              <Link to="/" onClick={toggleDropdown}>Início</Link>
+            </li>
+            <li>
+              <Link to="/sobre-nos" onClick={toggleDropdown}>Sobre Nós</Link>
+            </li>
+            <li>
+              <Link to="/programacao" onClick={toggleDropdown}>Programação</Link>
+            </li>
           </ul>
         )}
       </div>

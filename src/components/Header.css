@@ -14,7 +14,7 @@
 }
 
 .header-left .logo {
-    height: 50px;
+    height: 100px;
 }
 
 .header-right {
@@ -22,9 +22,10 @@
 }
 
 .title-header {
+    
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
+    font-size: 35px;
 
 }
 
@@ -32,7 +33,7 @@
     background: none;
     border: none;
     color: white;
-    font-size: 16px;
+    font-size: 35px;
     cursor: pointer;
 }
 
@@ -54,14 +55,31 @@
 .dropdown-menu li {
     padding: 8px 15px;
     cursor: pointer;
+    font-size: 35px;
 }
 
 .dropdown-menu li:hover {
     background-color: #222;
 }
 
+.dropdown-menu li a:visited {
+    color: white; /* Define a cor do texto para branco */
+}
+
 @media screen and (max-width: 450px) {
     .title-header {
         display: none;
+    }
+    .header-left .logo {
+        height: 50px;
+    }
+    .title-header {
+        font-size: medium;
+    }
+    .dropdown-btn {
+        font-size: 16px;
+    }
+    .dropdown-menu li {
+        font-size: 16px;
     }
 }

@@ -1,18 +1,28 @@
-// src/App.js
 import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import TopBanner from "./components/TopBanner";
-import Body from "./components/Body"; 
+import Home from "./components/Home"; 
+import About from "./components/About";
+import Schedule from "./components/Schedule";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
-    <div>
-      <Header />
-      <TopBanner />
-      <Body /> 
-      <Footer />
-    </div>
+    <BrowserRouter basename="/verbo-react">
+      <ScrollToTop />
+      <div>
+        <Header />
+        <TopBanner />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/sobre-nos" element={<About />} />
+          <Route path="/programacao" element={<Schedule />} />
+        </Routes>
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 

@@ -1,0 +1,62 @@
+/* src/components/Body.css */
+.body-content {
+    /* Ajuste a margem superior para ser apenas a altura do Header */
+    background-color: rgb(37, 37, 37);
+    background-image: url('../assets/rocha.jpg');
+    margin-top: 0px;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  
+  /* Estilo para o card */
+  .guest-card {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    /* max-width: 800px; */
+    width: 80%;
+    max-width: 840px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    text-align: center;
+  }
+  
+  /* Estilo para o título do card */
+  .card-title {
+    color: yellow;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para o texto do card */
+  .card-text {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  
+  
+  .title-header2 {
+    display: none;
+  }
+  
+  .title-header2 h2{
+  color:white;
+  text-align: center;
+  font-family:system-ui;
+  }
+  
+  
+  @media screen and (max-width: 450px) {
+    .title-header2{
+      object-fit: cover; 
+      padding-bottom: 20px;
+      display: block;
+    }
+  }
